@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Webprogramozás (BH-MIT073-L-GY-KMT/GI-2) Beaadando">
+    <meta name="author" content="Zsolt Drobina (GL0LFK)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Fetching font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wdth,wght@100..125,100..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  
+    <title>Student Feedback Survey</title>
+  
+</head>
+<body>
+    <ul class="topnav">
+        <li><a href="index.html">Main Page</a></li>
+        <li><a href="poem.html">My Favorite poem</a></li>
+        <li><a class="active" href="survey.html">Survey</a></li>
+        <li><a href="https://uni-milton.hu/" target="_blank">My School's Website</a></li>
+        <li><a href="#">My Favorite Hobby</a></li>
+        <li class="right"><a href="index.html#contactme">Contact Me</a></li>
+    </ul>
+
+    <div class="survey_area">
+        <h1>Student Feedback Survey</h1>
+        <p class="subtitle">
+            To evaluate your instructor and the course, please fill the form below:
+        </p>
+        <p id="course_name">Course: BH-MIT073-L-GY-KMT/GI-2: Webprogramozás</p>
+        <form id="survey-form">
+            <table id="survey">
+                <tr>
+                    <th>Question</th>
+                    <th>Yes</th>
+                    <th>No</th>
+                </tr>
+                <tr>
+                    <td class="question">Treated students with respect</td>
+                    <td><input type="radio" name="q1" value="yes" required></td>
+                    <td><input type="radio" name="q1" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Made students feel free to ask questions</td>
+                    <td><input type="radio" name="q2" value="yes" required></td>
+                    <td><input type="radio" name="q2" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Was capable of answering questions</td>
+                    <td><input type="radio" name="q3" value="yes" required></td>
+                    <td><input type="radio" name="q3" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Communicated clearly</td>
+                    <td><input type="radio" name="q4" value="yes" required></td>
+                    <td><input type="radio" name="q4" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Assigned homework that was relevant to course material</td>
+                    <td><input type="radio" name="q5" value="yes" required></td>
+                    <td><input type="radio" name="q5" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Allowed sufficient time to complete homework assignments</td>
+                    <td><input type="radio" name="q6" value="yes" required></td>
+                    <td><input type="radio" name="q6" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Gave exams that reflected the material covered in lectures</td>
+                    <td><input type="radio" name="q7" value="yes" required></td>
+                    <td><input type="radio" name="q7" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Provided constructive feedback on graded material</td>
+                    <td><input type="radio" name="q8" value="yes" required></td>
+                    <td><input type="radio" name="q8" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Kept students informed about their class grades and progress</td>
+                    <td><input type="radio" name="q9" value="yes" required></td>
+                    <td><input type="radio" name="q9" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Was available outside of lecture</td>
+                    <td><input type="radio" name="q10" value="yes" required></td>
+                    <td><input type="radio" name="q10" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Set and followed clearly defined grading criteria</td>
+                    <td><input type="radio" name="q11" value="yes" required></td>
+                    <td><input type="radio" name="q11" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Utilized the entire allotted lecture time</td>
+                    <td><input type="radio" name="q12" value="yes" required></td>
+                    <td><input type="radio" name="q12" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Was enthusiastic about teaching the course</td>
+                    <td><input type="radio" name="q13" value="yes" required></td>
+                    <td><input type="radio" name="q13" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">Completed the objectives outlined in the course description</td>
+                    <td><input type="radio" name="q14" value="yes" required></td>
+                    <td><input type="radio" name="q14" value="no"></td>
+                </tr>
+                <tr>
+                    <td class="question">I would recommend this instructor to other students</td>
+                    <td><input type="radio" name="q15" value="yes" required></td>
+                    <td><input type="radio" name="q15" value="no"></td>
+                </tr>
+            </table>
+
+            <label id="improvement-label" for="improvement">What should be improved?</label>
+            <textarea id="improvement" name="improvement" placeholder="Add here your suggestions..."></textarea>
+
+            <div class="submit-container">
+                <button class="button shadow" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('survey-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('✅ Your feedback was successfully submitted! Thank you!');
+            this.reset();
+        });
+        
+    </script>  
+
+</body>
+</html>
